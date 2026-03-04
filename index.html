@@ -1,35 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <header>
         <nav>
-            <ul>
-                <li>My Library</li>
-                <li>Home</li>
-                <li>Discover</li>
-                <li>Search</li>
-                <li>bell</li>
-                <li>locker</li>
-                <li>friends</li>
-                <li>settings</li>
-                <li>user</li>
+            <ul class="nav-bar-list">
+
+                <li class="nav-bar-list-items">
+                    <span class="nav-bar-icons"><img src="./assets/navbar/mylibrary.svg" alt=""></span>
+                    <p class="nav-bar-p">My Library</p>
+                </li>
+
+                <div class="home">
+                    <li class="nav-bar-list-items">
+                        <span class="nav-bar-icons"><img src="./assets/navbar/home.svg" alt=""></span>
+                        <p class="nav-bar-p, home-color">Home</p>
+                    </li>
+                </div>
+
+                <li class="nav-bar-list-items">
+                    <span class="nav-bar-icons"><img src="./assets/navbar/discover.svg" alt=""></span>
+                    <p class="nav-bar-p">Discover</p>
+                </li>
+
+                <li class="nav-bar-list-items">
+                    <span class="nav-bar-icons"><img src="./assets/navbar/search.svg" alt=""></span>
+                     <p class="nav-bar-p">Search</p>
+                </li>
+
             </ul>
 
         </nav>
 
     </header>
 
+
     <main>
         <section class="main-container">
-            <div class="side-bar">
 
+            <div class="side-bar">
+                    <ul class="side-bar-list">
+
+                        <li class="side-bar-items"> 
+                            <span class="side-bar-icons"><img src="./assets/side-bar/pins.svg" alt=""></span> 
+                            <p class="side-bar-p">Pins</p> 
+                            <span class="side-bar-icons"><img class="arrow" src="./assets/side-bar/arrow.svg" alt="" ></span>
+                        </li>
+
+                        <li class="side-bar-items">
+                            <span class="side-bar-icons"><img src="./assets/side-bar/playlists.svg" alt="" ></span>
+                            <p class="side-bar-p">Playlists</p> 
+                            <span class="side-bar-icons"><img class="arrow" src="./assets/side-bar/arrow.svg" alt="" ></span>
+                        </li>
+
+                        <li class="side-bar-items"> 
+                            <span class="side-bar-icons"><img src="./assets/side-bar/liked songs.svg" alt=""></span>
+                            <p class="side-bar-p">Liked Songs</p>
+                        </li>
+                        
+                        <li class="side-bar-items"> 
+                        <span class="side-bar-icons"><img src="./assets/side-bar/saves.svg" alt=""></span>
+                        <p class="side-bar-p">Saves</p>
+                        </li>
+
+                        <li class="side-bar-items"> 
+                        <span class="side-bar-icons"><img src="./assets/side-bar/pins.svg" alt=""></span>
+                        <p class="side-bar-p">Albums</p>
+                        </li>
+
+                        <li class="side-bar-items"> 
+                        <span class="side-bar-icons"><img src="./assets/side-bar/folders.svg" alt=""></span>
+                        <p class="side-bar-p">Folders</p>
+                        </li>
+
+                        <li class="side-bar-items"> 
+                        <span class="side-bar-icons"><img src="./assets/side-bar/podcasts.svg" alt=""></span>
+                        <p class="side-bar-p">Podcasts</p> 
+                        </li>
+
+                        <li class="side-bar-items"> 
+                        <span class="side-bar-icons"><img src="./assets/side-bar/audiobooks.svg" alt=""></span>
+                        <p class="side-bar-p">Audiobooks</p> </li>
+
+                        <li class="side-bar-items"> 
+                        <span class="side-bar-icons"><img src="./assets/side-bar/artists.svg" alt=""></span>
+                        <p class="side-bar-p">Artists</p> 
+                        </li>
+
+                    </ul>
             </div>
+
             <div class="core-display">
                 <div class="music-grid">
 
@@ -187,9 +255,11 @@
 
     </main>
 
+
     <footer>
 
     </footer>
     
 </body>
+
 </html>

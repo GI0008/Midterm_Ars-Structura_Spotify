@@ -1,27 +1,23 @@
+@font-face {
+  font-family: "satoshi";
+  src: url(./assets/Fonts/Satoshi-Variable.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
   background: #060606;
 }
 
-ul {
-  display: flex;
-  border: 1px solid red;
-  justify-content: space-evenly;
-}
-
-li {
-  color: #E0E0E0;
-  list-style-type: none;
-}
 
 .main-container {
   display: flex;
 }
 
-.side-bar {
-  border: 2px solid #545151;
-  height: 90vh;
-  flex: 1;
-}
 
 .core-display {
   border: 2px solid #545151;
@@ -71,5 +67,114 @@ li {
   font-size: 10px;
   margin: auto;
 }
+
+
+
+
+/* NAVBAR */
+
+.nav-bar-list {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px ;
+  grid-template-rows: 50px;
+  height: 50px;
+  width: 900px;
+}
+
+.home {
+  background-color: #111111;
+  display: grid;
+  border-radius: 10px;
+}
+
+.nav-bar-list-items {
+  color: #E0E0E0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  padding-left: 15px;
+}
+
+.nav-bar-p {
+  color: #898989;
+  font-family: "satoshi", "sans-serif";
+  font-size: 13px;
+  flex: 1;
+}
+
+.nav-bar-icons img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.nav-bar-icons {
+  width: 30px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-color {
+  color: #E0E0E0;
+  font-family: "satoshi", "sans-serif";
+  font-size: 13px;
+  padding-left: 15px;
+}
+
+/* NAVBAR */
+
+
+/* SIDEBAR */
+
+.side-bar {
+  height: 90vh;
+  width: 200px;
+  /* flex: 1; */
+}
+
+.side-bar-p {
+  color: #898989;
+  font-family: "satoshi", "sans-serif";
+  font-size: 12px;
+  padding-left: 15px;
+  flex: 1;
+}
+
+.side-bar-list {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.side-bar-items {
+  display: flex;
+  align-items: center;
+}
+
+.side-bar-icons img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+img.arrow {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+}
+
+.side-bar-icons {
+  width: 30px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* SIDEBAR */
 
 /*# sourceMappingURL=style.css.map */
