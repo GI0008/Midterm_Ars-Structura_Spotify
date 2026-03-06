@@ -3,6 +3,7 @@
 @use "./scss/main-bar";
 @use "./scss/category-bar";
 @use "./scss/different-colors";
+@use "./scss/footer";
 
 @font-face {
     font-family: "satoshi";
@@ -12,11 +13,12 @@
 }
 
 
+
 body {
   background: #060606;
 }
 
-@use "./scss/footer";
+
 
 
 
