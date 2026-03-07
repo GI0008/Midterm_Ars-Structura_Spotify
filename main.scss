@@ -6,6 +6,7 @@
 @use "./scss/search-bar";
 @use "./scss/search-music-grid";
 
+@use "./scss/footer";
 
 @font-face {
     font-family: "satoshi";
@@ -15,10 +16,10 @@
 }
 
 
+
 body {
   background-color: #060606;
 }
-
 
 
 
