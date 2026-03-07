@@ -1,4 +1,64 @@
 .side-bar {
+  height: 90vh;
+  width: 300px;
+}
+
+.side-bar:hover {
+    background-color: #111111;
+    border-radius: 0 0 10px 10px;
+}
+
+.side-bar-p {
+  color: #898989;
+  font-family: "satoshi", "sans-serif";
+  font-size: 12px;
+  padding-left: 15px;
+  flex: 1;
+}
+
+.nav-bar-right-icons {
+  list-style-type: none;
+}
+
+.side-bar-list {
+  padding-left: 5px;
+  margin: 0;
+}
+
+.side-bar-items {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+.side-bar-items:hover {
+  background-color: #212121;
+}
+
+.side-bar-icons img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+img.arrow {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+}
+.nav-bar-icons {
+  text-decoration: none;
+}
+
+
+.side-bar-icons {
+  width: 30px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
     height: 100vh;
     width: 280px;
     background-color: #000000;
