@@ -21,6 +21,8 @@ nav {
 }
 
 .nav-bar-list-items {
+  // background-color: white;
+  width: 200px;
   color: #E0E0E0;
   display: flex;
   justify-content: center;
@@ -52,12 +54,12 @@ nav {
   text-decoration: none;  
 }
 
-.home-color {
-  color: #E0E0E0;
-  font-family: "satoshi", "sans-serif";
-  font-size: 13px;
-  padding-left: 10px;
-}
+// .home-color {
+//   color: #E0E0E0;
+//   font-family: "satoshi", "sans-serif";
+//   font-size: 13px;
+//   padding-left: 10px;
+// }
 
 .nav-bar-right-icons {
   display: flex;
