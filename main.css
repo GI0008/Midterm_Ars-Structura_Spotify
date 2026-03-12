@@ -4,7 +4,6 @@
 }
 
 .side-bar:hover {
-  background-color: #111111;
   border-radius: 0 0 10px 10px;
 }
 
@@ -42,12 +41,6 @@
   -o-object-fit: contain;
      object-fit: contain;
 }
-.side-bar .side-bar-list li p {
-  margin: 0;
-  color: #b3b3b3;
-  font-size: 14px;
-  font-weight: 400;
-  transition: color 0.3s ease;
 
 img.arrow {
   width: 15px;
@@ -84,6 +77,7 @@ nav {
 }
 
 .nav-bar-list-items {
+  width: 200px;
   color: #E0E0E0;
   display: flex;
   justify-content: center;
@@ -116,13 +110,6 @@ nav {
   text-decoration: none;
 }
 
-.home-color {
-  color: #E0E0E0;
-  font-family: "satoshi", "sans-serif";
-  font-size: 13px;
-  padding-left: 10px;
-}
-
 .nav-bar-right-icons {
   display: flex;
   gap: 30px;
@@ -145,6 +132,7 @@ nav {
 }
 
 .core-display {
+  max-width: 1920px;
   width: 1920px;
   border: 1px solid #202020;
   border-radius: 10px;
@@ -998,6 +986,36 @@ nav {
 
 .left-side-bar-img {
   padding: 5px 15px;
+}
+
+.content-discover-div {
+  height: 800px;
+  width: max-width;
+  position: relative;
+  overflow: hidden;
+}
+.content-discover-div::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../assets/discover-tab/5911e959b5a35b2c6f9beb4b5c1f521971d3c073.png");
+  background-size: cover;
+  background-position: center;
+  filter: blur(80px);
+  transform: scale(1.1);
+  z-index: -1;
+}
+.content-discover-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discover-content {
+  height: 600px;
+  width: 1000px;
+  background-image: url(../assets/discover-tab/discover-content.svg);
+  background-repeat: no-repeat;
 }
 
 .player {
