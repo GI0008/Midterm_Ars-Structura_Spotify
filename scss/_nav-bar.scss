@@ -49,6 +49,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;  
 }
 
 .home-color {
@@ -62,6 +63,16 @@ nav {
   display: flex;
   gap: 30px;
   align-items: center;
+}
+
+
+.friends:hover img {
+opacity: 0;
+}
+
+.friends:hover {
+background-image: url(../assets/navbar/3-hover.svg);
+background-repeat: no-repeat;
 }
 
 .cat-profile {
